@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>NEPLUS INTERACTIVE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- fb og -->
+	<meta property="og:title" content="NEPLUS INTERACTIVE 奈普互動" />
+	<!-- <meta property="og:description" content="" /> -->
+	<meta property="og:image" content="https://www.neplus.com.tw/img/logo.png" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="200" />
+	<meta property="og:site_name" content="NEPLUS INTERACTIVE 奈普互動" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="zh_TW" />
+	<meta property="og:url" content="https://www.neplus.com.tw" />
+	<!-- end fb og -->
+
+    <!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	
+	<!-- sweetalert.js -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+	<!-- user -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/index.js"></script>
+
+	<!-- slick -->
+	<link rel="stylesheet" type="text/css" href="plugIn/slick/css/slick.css">
+  	<link rel="stylesheet" type="text/css" href="plugIn/slick/css/slick-theme.css">
+	<script src="plugIn/slick/js/slick.js"></script>
+
+
+	<!-- fontawesome	 -->
+	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/fa-svg-with-js.css">
+	<script defer src="js/fontawesome/fontawesome-all.js"></script>	
+	
+	<!-- short-icon -->
+	<link rel="Shortcut Icon" type="image/x-icon" href="img/favicon-20180424010417982.ico">
+
+  </head>
+  <body>
+<header>
+	<div class="nav-logo text-center">
+		<!-- <img src="img/logo.png" class="img-fluid"> -->
+<!-- logo svg -->
+		<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 176 79" style="enable-background:new 0 0 176 79;" xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:#333333;}
+			.st1{fill:#F05A28;}
+			.st2{fill:#6C6E70;}
+		</style>
+		<g>
+			<g>
+				<g>
+					<path class="st0" d="M90.4,27.7c0-0.9,0.1-2.1,0.1-2.1c0.2-3.9,3-6.9,7-6.9c4,0,6.5,3.4,6.7,7.1H94v3.9h16.1
+						c1-8-4.2-15.6-12.6-15.6c-2.7,0-5.1,0.8-7,2.1v-1.5c0-6-3.7-9.1-9.4-9.1c-3,0-5.7,1.3-7.5,3.6c-0.3,0.4-0.9,1.2-0.9,1.2h-1.5
+						h-4.1v22.6H73V17.2c0-3.9,2.5-7,6.4-7c3.5,0,5.1,1.8,5.2,6v11.5c0,0.5-0.1,3.6,1,6.5c1.8,4.9,5.9,8,12.1,8
+						c5.8,0,10.8-3.2,12.1-9.1h-5.6c-1,2.9-3.1,4.4-6.5,4.4c-4.8,0-7.1-3.5-7.2-7.6C90.5,29.9,90.4,28.5,90.4,27.7z"/>
+				</g>
+				<rect x="67.2" y="1.1" class="st1" width="5.5" height="5.5"/>
+			</g>
+			<g>
+				<path class="st2" d="M4.4,63.3l3.3,9.3h0v-9.3h2.5v13.6H7.2l-3.4-9.5h0v9.5H1.3V63.3H4.4z"/>
+				<path class="st2" d="M21.7,63.3v2.2h-4.9v3.2h4.6V71h-4.6v3.7h5.1v2.2h-7.8V63.3H21.7z"/>
+				<path class="st2" d="M25.2,63.3H30c2.8,0,3.7,2,3.7,4.1c0,2.8-1.7,4.1-4.3,4.1h-1.5v5.4h-2.7V63.3z M27.9,69.4h1.2
+					c1.1,0,1.8-0.6,1.8-2c0-1.3-0.5-2.1-1.9-2.1h-1.1V69.4z"/>
+				<path class="st2" d="M36.5,76.9V63.3h2.7v11.4h4.9v2.2H36.5z"/>
+				<path class="st2" d="M48.8,63.3v9.5c0,1.4,0.3,2.4,1.6,2.4c1.3,0,1.6-1,1.6-2.4v-9.5h2.7v9.5c0,3.5-2.1,4.4-4.3,4.4
+					c-2.2,0-4.3-0.7-4.3-4.4v-9.5H48.8z"/>
+				<path class="st2" d="M60.6,72.6V73c0,1.3,0.4,2.1,1.8,2.1c0.8,0,1.6-0.5,1.6-1.7c0-1.2-0.6-1.7-2.4-2.3c-2.4-0.8-3.6-1.8-3.6-4.1
+					c0-2.6,1.6-4,4.2-4c2.4,0,4.2,1,4.2,3.7V67h-2.6c0-1.3-0.4-2-1.5-2c-1.2,0-1.6,0.8-1.6,1.6c0,0.8,0.2,1.4,1.4,1.8l2.1,0.9
+					c2.1,0.9,2.6,1.9,2.6,3.6c0,2.9-1.8,4.2-4.7,4.2c-3.1,0-4.3-1.4-4.3-4v-0.6H60.6z"/>
+				<path class="st1" d="M70.9,63.3h0.8v13.6h-0.8V63.3z"/>
+				<path class="st1" d="M77.8,63.3l5.9,12.3h0V63.3h0.8v13.6h-1l-5.9-12.3h0v12.3h-0.8V63.3H77.8z"/>
+				<path class="st1" d="M91.2,64h-3.6v-0.7h8V64H92v12.9h-0.8V64z"/>
+				<path class="st1" d="M98.7,63.3h6.5V64h-5.7v5.4h5.3v0.7h-5.3v6h5.9v0.7h-6.7V63.3z"/>
+				<path class="st1" d="M108.7,63.3h4c1.9,0,3.4,1.1,3.4,3.6c0,1.8-1,3.2-2.7,3.4v0c2.2,0.1,2.6,1.5,2.6,3.4V75
+					c0,0.8,0.1,1.3,0.5,1.8h-0.9c-0.2-0.4-0.3-1-0.3-1.8v-1.4c0-1.9-0.5-3.1-2.7-3.1h-2.9v6.3h-0.8V63.3z M112.1,69.9
+					c1.5,0,3.2-0.5,3.2-3.1c0-1.8-1-2.9-2.7-2.9h-3.1v6H112.1z"/>
+				<path class="st1" d="M126.2,72.6H121l-1.3,4.2h-0.8l4.2-13.6h1l4.1,13.6h-0.8L126.2,72.6z M123.7,64.1L123.7,64.1l-2.4,7.9h4.8
+					L123.7,64.1z"/>
+				<path class="st1" d="M138.2,67.2c0-1.8-1-3.5-3-3.5c-2.7,0-3.6,2.5-3.6,6.4c0,3.7,0.7,6.4,3.5,6.4c2.6,0,3.3-3.1,3.3-4.2h0.8
+					c0,1.6-0.8,4.8-4.2,4.8c-3,0-4.2-2.6-4.2-7c0-4.3,1.2-7.1,4.4-7.1c3.2,0,3.8,2.8,3.8,4.1H138.2z"/>
+				<path class="st1" d="M145.2,64h-3.6v-0.7h8V64H146v12.9h-0.8V64z"/>
+				<path class="st1" d="M152.7,63.3h0.8v13.6h-0.8V63.3z"/>
+				<path class="st1" d="M156.6,63.3h0.8l3.4,12.7h0l3.4-12.7h0.8l-3.7,13.6h-1L156.6,63.3z"/>
+				<path class="st1" d="M168.1,63.3h6.5V64h-5.7v5.4h5.3v0.7h-5.3v6h5.9v0.7h-6.7V63.3z"/>
+			</g>
+		</g>
+		</svg>
+<!--end logo svg -->		
+	</div>
+	<div class="neplus-name text-center">奈普互動</div>
+	<!-- <div class="lang-area d-flex align-items-center">
+		<div class="lang-en lang">EN</div>
+		<div class="lang-ch lang active">繁</div>
+	</div> -->	
+</header>
+
+<section id="s1">
+		<div class="banner-title-box d-flex justify-content-center align-items-center flex-column">
+			<div class="banner-title text-center">陪企業一起成長的最佳默契夥伴！</div>
+			<div>
+				<div class="banner-content text-center">以技術、設計、顧問咨詢</div>
+				<div class="banner-content text-center">三項優勢與熱情所在，傾力打造新創品牌，</div>
+				<div class="banner-content text-center">一起孵化夢想，一起成長。</div>
+			</div>	
+		</div>
+		<div class="banner-btn">
+			<button type="button" class="btn active" id="aboutUs">關於我們<i class="fas fa-angle-down"></i></button>
+			<button type="button" class="btn" id="recruit">加入我們<i class="fas fa-angle-down"></i></button>
+		</div>
+		<!-- <div class="banner-content-box d-flex justify-content-center align-items-end">
+			<div>
+				<div class="banner-content text-center">以技術、設計、顧問咨詢</div>
+				<div class="banner-content text-center">三項優勢與熱情所在，傾力打造新創品牌，</div>
+				<div class="banner-content text-center">一起孵化夢想，一起成長。</div>
+			</div> 
+		</div>-->
+</section>
+
+<section id="s2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="title">主要服務</h2>
+			</div>
+			<div class="col-12 service-area pt-0">
+				<div class="row">
+					<div class="service-box d-flex flex-row flex-wrap align-items-center">
+						<div class="col-md-2 text-center">
+							<img src="img/icon-1.png" class="img-fluid">
+						</div>						
+						<div class="col-md-10">
+							<h4 class="service-title">開發技術創新<div class="service-subtitle"><span class="quoteStyle">“</span>網站平台 ＆原生APP應用程式開發<span class="quoteStyle" >”</span></div></h4>
+							<div class="service-content text-left"><p class="mb-0">網站平台設計、電商平台規劃、金流設計、原生APP應用程式開發的專家，以豐富的企業網站與應用程式開發經驗，提供策略與know-how咨詢，從需求分析、網站架構、流程規劃、介面操作、視覺設計、使用者體驗優化、後台使用等方方面面著力，不僅運用設計解決企業問題，更讓設計不只是服務功能，還能引導功能，創造額外效益。</p><p>我們崇尚less is more的極簡設計，以使用者端思考為優先，不為設計而設計，傾注熱情與創意全力扮演顧問服務與技術專家角色，為您量身打造最符合您需求的專業形象網站與應用程式，提供最順暢的平台操作經驗。</p>
+							</div>	
+						</div>						
+					</div>
+				</div>				
+			</div>
+			<div class="col-12 service-area border-line-vertical">
+				<div class="row">
+					<div class="service-box d-flex flex-row flex-wrap align-items-center">
+						<div class="col-md-2 text-center">
+							<img src="img/icon-2.png" class="img-fluid">
+						</div>	
+						<div class="col-md-10">
+							<h4 class="service-title">企業應用方案<div class="service-subtitle"><span class="quoteStyle">“</span>協助企業全面Ｕ化，極致活化管理<span class="quoteStyle" >”</span></div></h4>
+							<div class="service-content text-left">量身訂製深入企業內部的行動應用裝置，協助企業全面Ｕ化。從企業內部溝通系統、行動辦公室、業務行動裝置、顧客管理……等，全方位提供您最智慧創新的應用。整合業務、專案、人事管理等不同思考導向需求，極簡化使用流程，為企業量身設計使用者友善，效能與便利兼具的企業應用解決方案。透過分析大數據資料庫，建構利於使用者隨時隨地搜尋汲取資訊的裝置和環境，大大提高業務效能與企業競爭力。</div>
+						</div>						
+					</div>
+				</div>				
+			</div>
+			<div class="col-12 service-area">
+				<div class="row">
+					<div class="service-box d-flex flex-row flex-wrap align-items-center">
+						<div class="col-md-2 text-center">
+							<img src="img/icon-3.png" class="img-fluid">
+						</div>	
+						<div class="col-md-10">
+							<h4 class="service-title">新創服務支援<div class="service-subtitle"><span class="quoteStyle">“</span>Online to Offline虛實整合&產業升級<span class="quoteStyle" >”</span></div></h4>
+							<div class="service-content text-left">傳統產業及新創公司有高線下優勢，想要跨足升級至線上平台營運模式，卻不一定熟悉網路語言及擁有線上平台技術能力。我們的專業與豐富的平台經驗能快速掌握客戶需求，提供業界常用解決方案，量身打造符合企業及目標客群需要的線上技術與服務，協助傳產及新創公司順暢跨足轉換線上電子商務模式，整合線上線下資源，將客流從線上引至線下實體通路，推動銷售，同時由下而上建立品牌，無痛式企業升級。</div>
+						</div>						
+					</div>
+				</div>				
+			</div>
+		</div>		
+	</div>
+</section>
+
+<!-- <section id="s3">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="title">客戶案例</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<div class="row slick-item">
+					<div class="item"><img src="img/case-1.jpg" alt="" class="img-fluid"></div>
+					<div class="item"><img src="img/case-1.jpg" alt="" class="img-fluid"></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="block"></div>
+</section> -->
+
+<section id="s4">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="title">關於我們</h2>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12 content text-center">
+						<p>以使用者思考導向開展服務，專注為企業加分而設計，打造最智慧的溝通方案</p>
+						<p>我們專注於平台網站開發與系統建置、原生APP應用程式開發、企業應用解決方案以及新創服務支援。以豐富的企業合作經驗與專業技術提供know-how，打造最適合您的線上工具。
+						設計、技術和顧問咨詢是我們的三大強項，不僅依據企業的需求客制化服務，更強調從使用者的觀點出發，才能創造體貼滿分的使用者體驗, 進而回饋企業的營收成長。絕不為設計而設計，每個介面、視覺元素、動線設計，都有其存在的理由，確切解決線上使用的問題，創造最精練利落的使用者體驗。
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">Nothing Beyond Interactive</h4>
+										<div class="content">ne plus ultra源自拉丁文，意指the best excellent example of something 。而｢奈普互動NEPLUS INTERACTIVE｣ 代表Nothing Beyond Interactive，自我期許能帶給客戶極致的互動體驗。我們是一群由設計師、技術工程師與企業管理顧問所組成的年輕團隊，充滿熱情、創意、無畏挑戰，因為年輕而沒有包袱框架，因為專業而屢出奇策，擅長以絕佳的團隊默契與互動，創新的策略，開放的視野為企業尋找Ｕ化最佳解決方案。我們擅長也強調互動，互動可以在多個層面，和客戶、和工作夥伴、和使用者溝通交流，透過有默契的互動，一起達成目標，一起成長提升，一起實踐夢想！ 											
+										</div> 
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-4 img-area">
+								<img src="img/work-1.jpg" class="img-fluid" alt="">
+								<div class="img-shadow"></div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 col-md-8 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">創業起頭萬難，我們陪您把它變簡單</h4>
+										<div class="content">
+											「客戶提出需求，開規格，我們做」從來不是我們的模式，我們的專長是運用「設計、技術、顧問」三大核心優勢，陪著企業與新創公司一起在萬事起頭難中理出線頭，和您一起思考規劃，運用顧問專長與技術設計專業尋找解決方案，合力找出最適合您的新創企業方向。
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-4 img-area img-area-right">
+								<img src="img/work-2.jpg" class="img-fluid" alt="">
+								<div class="img-shadow img-shadow-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">朝九晚五太無聊，本位做事太窒息！</h4>
+										<div class="content">奈普互動是一群年輕新創的團隊，在這個團隊我們在乎每位夥伴的自我實現與職涯發展，更在乎工作氣氛的融洽。我們的組織扁平，沒有階級之分，沒有既定框架，致力創造自由開放的工作環境與氣氛。讓每位夥伴都能在這裡以輕鬆的心情工作，以開放的視野與態度討論任何事情，透過與夥伴們的默契互動，專業互補，發揮最大的實力、創意與想像力，合力完成手上的專案，成就自己，也成就團隊。
+										</div>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-6 col-md-4 img-area">
+								<img src="img/work-3.jpg" class="img-fluid" alt="">
+								<div class="img-shadow"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 col-md-8 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">默契優先的The A-Team</h4>
+										<div class="content">奈普互動不僅陪著新創公司一起成長，更重要的是帶領夥伴也一起隨著團隊成長，自我實現。	｢The A-Team｣ 是我們理想的團隊合作模式，我們期望每個人都有鮮明的形象，各有各的特色與專長，一起行動時總能功能特長互補，合力完成任務。我們相信默契良好的團隊合作，力量大於一枝獨秀的明星球員。因而我們對外召集也認同這個理念且勇於挑戰的team player，尋找樂意互相接球支援，一起打拼，一起成長，一起完成很多挑戰的夥伴，一起朝向成為下一個頂尖科技新創公司而努力 !										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-4 img-area img-area-right">
+								<img src="img/work-4.jpg" class="img-fluid" alt="">
+								<div class="img-shadow img-shadow-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>	
+</section>
+
+<section id="s5">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="title">工作環境&理念</h2>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12 content text-center">
+						<p>奈普互動不僅陪著新創公司一起成長，更重要的是帶領夥伴也一起隨著團隊成長，自我實現。</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">朝九晚五太無聊，本位做事太窒息！</h4>
+										<div class="content">奈普互動是一群年輕新創的團隊，在這個團隊我們在乎每位夥伴的自我實現與職涯發展，更在乎工作氣氛的融洽。我們的組織扁平，沒有階級之分，沒有既定框架，致力創造自由開放的工作環境與氣氛。讓每位夥伴都能在這裡以輕鬆的心情工作，以開放的視野與態度討論任何事情，透過與夥伴們的默契互動，專業互補，發揮最大的實力、創意與想像力，合力完成手上的專案，成就自己，也成就團隊。
+										</div>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-6 col-md-4 img-area">
+								<img src="img/work-3.jpg" class="img-fluid" alt="">
+								<div class="img-shadow"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 neplus-area">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-6 col-md-8 neplus-info">
+								<div class="neplus-info-box">
+									<div class="neplus-info-area">
+										<h4 class="title"><img src="img/mark.png" class="img-fluid mr-2" alt="">默契優先的The A-Team</h4>
+										<div class="content">奈普互動不僅陪著新創公司一起成長，更重要的是帶領夥伴也一起隨著團隊成長，自我實現。	｢The A-Team｣ 是我們理想的團隊合作模式，我們期望每個人都有鮮明的形象，各有各的特色與專長，一起行動時總能功能特長互補，合力完成任務。我們相信默契良好的團隊合作，力量大於一枝獨秀的明星球員。因而我們對外召集也認同這個理念且勇於挑戰的team player，尋找樂意互相接球支援，一起打拼，一起成長，一起完成很多挑戰的夥伴，一起朝向成為下一個頂尖科技新創公司而努力 !										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-4 img-area img-area-right">
+								<img src="img/work-4.jpg" class="img-fluid" alt="">
+								<div class="img-shadow img-shadow-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
+
+<!-- gotop -->
+<!-- <div class="gotop">
+  	<i class="fas fa-angle-up fa-3x"></i>
+</div> -->
+
+<footer>
+	<div class="container">
+		<div class="py-5 footer-rwd d-flex justify-content-start align-items-center justify-content-around footer-rwd">
+			<div class="footer-logo text-center px-3">
+				<div>
+					<!-- <img src="img/logo_white.png" alt=""> -->
+<!-- logo svg -->
+				<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 176 79" style="enable-background:new 0 0 176 79;" xml:space="preserve">
+				<style type="text/css">
+					.st3{fill:#fff;}
+					.st4{fill:#fff;}
+					.st5{fill:#fff;}
+				</style>
+				<g>
+					<g>
+						<g>
+							<path class="st3" d="M90.4,27.7c0-0.9,0.1-2.1,0.1-2.1c0.2-3.9,3-6.9,7-6.9c4,0,6.5,3.4,6.7,7.1H94v3.9h16.1
+								c1-8-4.2-15.6-12.6-15.6c-2.7,0-5.1,0.8-7,2.1v-1.5c0-6-3.7-9.1-9.4-9.1c-3,0-5.7,1.3-7.5,3.6c-0.3,0.4-0.9,1.2-0.9,1.2h-1.5
+								h-4.1v22.6H73V17.2c0-3.9,2.5-7,6.4-7c3.5,0,5.1,1.8,5.2,6v11.5c0,0.5-0.1,3.6,1,6.5c1.8,4.9,5.9,8,12.1,8
+								c5.8,0,10.8-3.2,12.1-9.1h-5.6c-1,2.9-3.1,4.4-6.5,4.4c-4.8,0-7.1-3.5-7.2-7.6C90.5,29.9,90.4,28.5,90.4,27.7z"/>
+						</g>
+						<rect x="67.2" y="1.1" class="st4" width="5.5" height="5.5"/>
+					</g>
+					<g>
+						<path class="st5" d="M4.4,63.3l3.3,9.3h0v-9.3h2.5v13.6H7.2l-3.4-9.5h0v9.5H1.3V63.3H4.4z"/>
+						<path class="st5" d="M21.7,63.3v2.2h-4.9v3.2h4.6V71h-4.6v3.7h5.1v2.2h-7.8V63.3H21.7z"/>
+						<path class="st5" d="M25.2,63.3H30c2.8,0,3.7,2,3.7,4.1c0,2.8-1.7,4.1-4.3,4.1h-1.5v5.4h-2.7V63.3z M27.9,69.4h1.2
+							c1.1,0,1.8-0.6,1.8-2c0-1.3-0.5-2.1-1.9-2.1h-1.1V69.4z"/>
+						<path class="st5" d="M36.5,76.9V63.3h2.7v11.4h4.9v2.2H36.5z"/>
+						<path class="st5" d="M48.8,63.3v9.5c0,1.4,0.3,2.4,1.6,2.4c1.3,0,1.6-1,1.6-2.4v-9.5h2.7v9.5c0,3.5-2.1,4.4-4.3,4.4
+							c-2.2,0-4.3-0.7-4.3-4.4v-9.5H48.8z"/>
+						<path class="st5" d="M60.6,72.6V73c0,1.3,0.4,2.1,1.8,2.1c0.8,0,1.6-0.5,1.6-1.7c0-1.2-0.6-1.7-2.4-2.3c-2.4-0.8-3.6-1.8-3.6-4.1
+							c0-2.6,1.6-4,4.2-4c2.4,0,4.2,1,4.2,3.7V67h-2.6c0-1.3-0.4-2-1.5-2c-1.2,0-1.6,0.8-1.6,1.6c0,0.8,0.2,1.4,1.4,1.8l2.1,0.9
+							c2.1,0.9,2.6,1.9,2.6,3.6c0,2.9-1.8,4.2-4.7,4.2c-3.1,0-4.3-1.4-4.3-4v-0.6H60.6z"/>
+						<path class="st4" d="M70.9,63.3h0.8v13.6h-0.8V63.3z"/>
+						<path class="st4" d="M77.8,63.3l5.9,12.3h0V63.3h0.8v13.6h-1l-5.9-12.3h0v12.3h-0.8V63.3H77.8z"/>
+						<path class="st4" d="M91.2,64h-3.6v-0.7h8V64H92v12.9h-0.8V64z"/>
+						<path class="st4" d="M98.7,63.3h6.5V64h-5.7v5.4h5.3v0.7h-5.3v6h5.9v0.7h-6.7V63.3z"/>
+						<path class="st4" d="M108.7,63.3h4c1.9,0,3.4,1.1,3.4,3.6c0,1.8-1,3.2-2.7,3.4v0c2.2,0.1,2.6,1.5,2.6,3.4V75
+							c0,0.8,0.1,1.3,0.5,1.8h-0.9c-0.2-0.4-0.3-1-0.3-1.8v-1.4c0-1.9-0.5-3.1-2.7-3.1h-2.9v6.3h-0.8V63.3z M112.1,69.9
+							c1.5,0,3.2-0.5,3.2-3.1c0-1.8-1-2.9-2.7-2.9h-3.1v6H112.1z"/>
+						<path class="st4" d="M126.2,72.6H121l-1.3,4.2h-0.8l4.2-13.6h1l4.1,13.6h-0.8L126.2,72.6z M123.7,64.1L123.7,64.1l-2.4,7.9h4.8
+							L123.7,64.1z"/>
+						<path class="st4" d="M138.2,67.2c0-1.8-1-3.5-3-3.5c-2.7,0-3.6,2.5-3.6,6.4c0,3.7,0.7,6.4,3.5,6.4c2.6,0,3.3-3.1,3.3-4.2h0.8
+							c0,1.6-0.8,4.8-4.2,4.8c-3,0-4.2-2.6-4.2-7c0-4.3,1.2-7.1,4.4-7.1c3.2,0,3.8,2.8,3.8,4.1H138.2z"/>
+						<path class="st4" d="M145.2,64h-3.6v-0.7h8V64H146v12.9h-0.8V64z"/>
+						<path class="st4" d="M152.7,63.3h0.8v13.6h-0.8V63.3z"/>
+						<path class="st4" d="M156.6,63.3h0.8l3.4,12.7h0l3.4-12.7h0.8l-3.7,13.6h-1L156.6,63.3z"/>
+						<path class="st4" d="M168.1,63.3h6.5V64h-5.7v5.4h5.3v0.7h-5.3v6h5.9v0.7h-6.7V63.3z"/>
+					</g>
+				</g>
+				</svg>
+<!--end logo svg -->
+					<div class="title">奈普互動</div>
+				</div>
+			</div>
+			<div class="footer-info px-3 d-flex justify-content-around">
+				<div class="qrcode d-flex flex-row">
+					<a href="http://line.me/R/ti/p/@xbj7596w" target="_blank">
+						<!-- <img src="img/qrcode.png" class="img-fluid"> -->
+<!-- qrcode svg	 -->
+						<svg version="1.1" baseProfile="full"  width="264" height="264" viewBox="0 0 264 264"
+		 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+							<desc></desc>
+							<rect width="264" height="264" fill="rgba(255,255,255,0)" cx="0" cy="0" />
+							<defs>
+							<rect id="p" width="8" height="8" />
+							</defs>
+							<g fill="rgba(255,255,255,.9)">
+							<use x="32" y="32" xlink:href="#p" />
+							<use x="32" y="40" xlink:href="#p" />
+							<use x="32" y="48" xlink:href="#p" />
+							<use x="32" y="56" xlink:href="#p" />
+							<use x="32" y="64" xlink:href="#p" />
+							<use x="32" y="72" xlink:href="#p" />
+							<use x="32" y="80" xlink:href="#p" />
+							<use x="32" y="96" xlink:href="#p" />
+							<use x="32" y="104" xlink:href="#p" />
+							<use x="32" y="176" xlink:href="#p" />
+							<use x="32" y="184" xlink:href="#p" />
+							<use x="32" y="192" xlink:href="#p" />
+							<use x="32" y="200" xlink:href="#p" />
+							<use x="32" y="208" xlink:href="#p" />
+							<use x="32" y="216" xlink:href="#p" />
+							<use x="32" y="224" xlink:href="#p" />
+							<use x="40" y="32" xlink:href="#p" />
+							<use x="40" y="80" xlink:href="#p" />
+							<use x="40" y="96" xlink:href="#p" />
+							<use x="40" y="104" xlink:href="#p" />
+							<use x="40" y="112" xlink:href="#p" />
+							<use x="40" y="136" xlink:href="#p" />
+							<use x="40" y="152" xlink:href="#p" />
+							<use x="40" y="160" xlink:href="#p" />
+							<use x="40" y="176" xlink:href="#p" />
+							<use x="40" y="224" xlink:href="#p" />
+							<use x="48" y="32" xlink:href="#p" />
+							<use x="48" y="48" xlink:href="#p" />
+							<use x="48" y="56" xlink:href="#p" />
+							<use x="48" y="64" xlink:href="#p" />
+							<use x="48" y="80" xlink:href="#p" />
+							<use x="48" y="104" xlink:href="#p" />
+							<use x="48" y="128" xlink:href="#p" />
+							<use x="48" y="136" xlink:href="#p" />
+							<use x="48" y="176" xlink:href="#p" />
+							<use x="48" y="192" xlink:href="#p" />
+							<use x="48" y="200" xlink:href="#p" />
+							<use x="48" y="208" xlink:href="#p" />
+							<use x="48" y="224" xlink:href="#p" />
+							<use x="56" y="32" xlink:href="#p" />
+							<use x="56" y="48" xlink:href="#p" />
+							<use x="56" y="56" xlink:href="#p" />
+							<use x="56" y="64" xlink:href="#p" />
+							<use x="56" y="80" xlink:href="#p" />
+							<use x="56" y="96" xlink:href="#p" />
+							<use x="56" y="112" xlink:href="#p" />
+							<use x="56" y="128" xlink:href="#p" />
+							<use x="56" y="136" xlink:href="#p" />
+							<use x="56" y="152" xlink:href="#p" />
+							<use x="56" y="160" xlink:href="#p" />
+							<use x="56" y="176" xlink:href="#p" />
+							<use x="56" y="192" xlink:href="#p" />
+							<use x="56" y="200" xlink:href="#p" />
+							<use x="56" y="208" xlink:href="#p" />
+							<use x="56" y="224" xlink:href="#p" />
+							<use x="64" y="32" xlink:href="#p" />
+							<use x="64" y="48" xlink:href="#p" />
+							<use x="64" y="56" xlink:href="#p" />
+							<use x="64" y="64" xlink:href="#p" />
+							<use x="64" y="80" xlink:href="#p" />
+							<use x="64" y="96" xlink:href="#p" />
+							<use x="64" y="104" xlink:href="#p" />
+							<use x="64" y="112" xlink:href="#p" />
+							<use x="64" y="144" xlink:href="#p" />
+							<use x="64" y="152" xlink:href="#p" />
+							<use x="64" y="160" xlink:href="#p" />
+							<use x="64" y="176" xlink:href="#p" />
+							<use x="64" y="192" xlink:href="#p" />
+							<use x="64" y="200" xlink:href="#p" />
+							<use x="64" y="208" xlink:href="#p" />
+							<use x="64" y="224" xlink:href="#p" />
+							<use x="72" y="32" xlink:href="#p" />
+							<use x="72" y="80" xlink:href="#p" />
+							<use x="72" y="112" xlink:href="#p" />
+							<use x="72" y="120" xlink:href="#p" />
+							<use x="72" y="144" xlink:href="#p" />
+							<use x="72" y="160" xlink:href="#p" />
+							<use x="72" y="176" xlink:href="#p" />
+							<use x="72" y="224" xlink:href="#p" />
+							<use x="80" y="32" xlink:href="#p" />
+							<use x="80" y="40" xlink:href="#p" />
+							<use x="80" y="48" xlink:href="#p" />
+							<use x="80" y="56" xlink:href="#p" />
+							<use x="80" y="64" xlink:href="#p" />
+							<use x="80" y="72" xlink:href="#p" />
+							<use x="80" y="80" xlink:href="#p" />
+							<use x="80" y="96" xlink:href="#p" />
+							<use x="80" y="112" xlink:href="#p" />
+							<use x="80" y="128" xlink:href="#p" />
+							<use x="80" y="144" xlink:href="#p" />
+							<use x="80" y="160" xlink:href="#p" />
+							<use x="80" y="176" xlink:href="#p" />
+							<use x="80" y="184" xlink:href="#p" />
+							<use x="80" y="192" xlink:href="#p" />
+							<use x="80" y="200" xlink:href="#p" />
+							<use x="80" y="208" xlink:href="#p" />
+							<use x="80" y="216" xlink:href="#p" />
+							<use x="80" y="224" xlink:href="#p" />
+							<use x="88" y="144" xlink:href="#p" />
+							<use x="88" y="152" xlink:href="#p" />
+							<use x="96" y="32" xlink:href="#p" />
+							<use x="96" y="80" xlink:href="#p" />
+							<use x="96" y="88" xlink:href="#p" />
+							<use x="96" y="112" xlink:href="#p" />
+							<use x="96" y="128" xlink:href="#p" />
+							<use x="96" y="136" xlink:href="#p" />
+							<use x="96" y="144" xlink:href="#p" />
+							<use x="96" y="152" xlink:href="#p" />
+							<use x="96" y="160" xlink:href="#p" />
+							<use x="96" y="168" xlink:href="#p" />
+							<use x="96" y="192" xlink:href="#p" />
+							<use x="96" y="200" xlink:href="#p" />
+							<use x="96" y="216" xlink:href="#p" />
+							<use x="96" y="224" xlink:href="#p" />
+							<use x="104" y="32" xlink:href="#p" />
+							<use x="104" y="40" xlink:href="#p" />
+							<use x="104" y="48" xlink:href="#p" />
+							<use x="104" y="56" xlink:href="#p" />
+							<use x="104" y="64" xlink:href="#p" />
+							<use x="104" y="72" xlink:href="#p" />
+							<use x="104" y="96" xlink:href="#p" />
+							<use x="104" y="104" xlink:href="#p" />
+							<use x="104" y="120" xlink:href="#p" />
+							<use x="104" y="128" xlink:href="#p" />
+							<use x="104" y="168" xlink:href="#p" />
+							<use x="104" y="176" xlink:href="#p" />
+							<use x="104" y="184" xlink:href="#p" />
+							<use x="104" y="208" xlink:href="#p" />
+							<use x="104" y="216" xlink:href="#p" />
+							<use x="112" y="40" xlink:href="#p" />
+							<use x="112" y="48" xlink:href="#p" />
+							<use x="112" y="64" xlink:href="#p" />
+							<use x="112" y="80" xlink:href="#p" />
+							<use x="112" y="88" xlink:href="#p" />
+							<use x="112" y="96" xlink:href="#p" />
+							<use x="112" y="104" xlink:href="#p" />
+							<use x="112" y="112" xlink:href="#p" />
+							<use x="112" y="120" xlink:href="#p" />
+							<use x="112" y="152" xlink:href="#p" />
+							<use x="112" y="160" xlink:href="#p" />
+							<use x="112" y="168" xlink:href="#p" />
+							<use x="112" y="176" xlink:href="#p" />
+							<use x="112" y="184" xlink:href="#p" />
+							<use x="112" y="224" xlink:href="#p" />
+							<use x="120" y="56" xlink:href="#p" />
+							<use x="120" y="72" xlink:href="#p" />
+							<use x="120" y="104" xlink:href="#p" />
+							<use x="120" y="112" xlink:href="#p" />
+							<use x="120" y="128" xlink:href="#p" />
+							<use x="120" y="136" xlink:href="#p" />
+							<use x="120" y="152" xlink:href="#p" />
+							<use x="120" y="176" xlink:href="#p" />
+							<use x="120" y="184" xlink:href="#p" />
+							<use x="120" y="200" xlink:href="#p" />
+							<use x="120" y="208" xlink:href="#p" />
+							<use x="120" y="216" xlink:href="#p" />
+							<use x="128" y="32" xlink:href="#p" />
+							<use x="128" y="48" xlink:href="#p" />
+							<use x="128" y="64" xlink:href="#p" />
+							<use x="128" y="80" xlink:href="#p" />
+							<use x="128" y="104" xlink:href="#p" />
+							<use x="128" y="136" xlink:href="#p" />
+							<use x="128" y="144" xlink:href="#p" />
+							<use x="128" y="152" xlink:href="#p" />
+							<use x="128" y="160" xlink:href="#p" />
+							<use x="128" y="176" xlink:href="#p" />
+							<use x="128" y="184" xlink:href="#p" />
+							<use x="128" y="192" xlink:href="#p" />
+							<use x="128" y="208" xlink:href="#p" />
+							<use x="128" y="216" xlink:href="#p" />
+							<use x="136" y="32" xlink:href="#p" />
+							<use x="136" y="40" xlink:href="#p" />
+							<use x="136" y="48" xlink:href="#p" />
+							<use x="136" y="56" xlink:href="#p" />
+							<use x="136" y="64" xlink:href="#p" />
+							<use x="136" y="88" xlink:href="#p" />
+							<use x="136" y="104" xlink:href="#p" />
+							<use x="136" y="112" xlink:href="#p" />
+							<use x="136" y="136" xlink:href="#p" />
+							<use x="136" y="144" xlink:href="#p" />
+							<use x="136" y="160" xlink:href="#p" />
+							<use x="136" y="168" xlink:href="#p" />
+							<use x="136" y="184" xlink:href="#p" />
+							<use x="136" y="192" xlink:href="#p" />
+							<use x="144" y="64" xlink:href="#p" />
+							<use x="144" y="80" xlink:href="#p" />
+							<use x="144" y="104" xlink:href="#p" />
+							<use x="144" y="120" xlink:href="#p" />
+							<use x="144" y="152" xlink:href="#p" />
+							<use x="144" y="160" xlink:href="#p" />
+							<use x="144" y="192" xlink:href="#p" />
+							<use x="144" y="200" xlink:href="#p" />
+							<use x="144" y="208" xlink:href="#p" />
+							<use x="152" y="56" xlink:href="#p" />
+							<use x="152" y="88" xlink:href="#p" />
+							<use x="152" y="96" xlink:href="#p" />
+							<use x="152" y="112" xlink:href="#p" />
+							<use x="152" y="120" xlink:href="#p" />
+							<use x="152" y="136" xlink:href="#p" />
+							<use x="152" y="144" xlink:href="#p" />
+							<use x="152" y="160" xlink:href="#p" />
+							<use x="152" y="184" xlink:href="#p" />
+							<use x="152" y="192" xlink:href="#p" />
+							<use x="152" y="200" xlink:href="#p" />
+							<use x="160" y="40" xlink:href="#p" />
+							<use x="160" y="56" xlink:href="#p" />
+							<use x="160" y="72" xlink:href="#p" />
+							<use x="160" y="80" xlink:href="#p" />
+							<use x="160" y="112" xlink:href="#p" />
+							<use x="160" y="128" xlink:href="#p" />
+							<use x="160" y="160" xlink:href="#p" />
+							<use x="160" y="168" xlink:href="#p" />
+							<use x="160" y="176" xlink:href="#p" />
+							<use x="160" y="184" xlink:href="#p" />
+							<use x="160" y="192" xlink:href="#p" />
+							<use x="160" y="200" xlink:href="#p" />
+							<use x="160" y="208" xlink:href="#p" />
+							<use x="160" y="224" xlink:href="#p" />
+							<use x="168" y="120" xlink:href="#p" />
+							<use x="168" y="144" xlink:href="#p" />
+							<use x="168" y="152" xlink:href="#p" />
+							<use x="168" y="160" xlink:href="#p" />
+							<use x="168" y="192" xlink:href="#p" />
+							<use x="168" y="208" xlink:href="#p" />
+							<use x="168" y="224" xlink:href="#p" />
+							<use x="176" y="32" xlink:href="#p" />
+							<use x="176" y="40" xlink:href="#p" />
+							<use x="176" y="48" xlink:href="#p" />
+							<use x="176" y="56" xlink:href="#p" />
+							<use x="176" y="64" xlink:href="#p" />
+							<use x="176" y="72" xlink:href="#p" />
+							<use x="176" y="80" xlink:href="#p" />
+							<use x="176" y="96" xlink:href="#p" />
+							<use x="176" y="128" xlink:href="#p" />
+							<use x="176" y="144" xlink:href="#p" />
+							<use x="176" y="152" xlink:href="#p" />
+							<use x="176" y="160" xlink:href="#p" />
+							<use x="176" y="176" xlink:href="#p" />
+							<use x="176" y="192" xlink:href="#p" />
+							<use x="176" y="200" xlink:href="#p" />
+							<use x="184" y="32" xlink:href="#p" />
+							<use x="184" y="80" xlink:href="#p" />
+							<use x="184" y="104" xlink:href="#p" />
+							<use x="184" y="112" xlink:href="#p" />
+							<use x="184" y="128" xlink:href="#p" />
+							<use x="184" y="144" xlink:href="#p" />
+							<use x="184" y="152" xlink:href="#p" />
+							<use x="184" y="160" xlink:href="#p" />
+							<use x="184" y="192" xlink:href="#p" />
+							<use x="184" y="208" xlink:href="#p" />
+							<use x="184" y="216" xlink:href="#p" />
+							<use x="192" y="32" xlink:href="#p" />
+							<use x="192" y="48" xlink:href="#p" />
+							<use x="192" y="56" xlink:href="#p" />
+							<use x="192" y="64" xlink:href="#p" />
+							<use x="192" y="80" xlink:href="#p" />
+							<use x="192" y="104" xlink:href="#p" />
+							<use x="192" y="112" xlink:href="#p" />
+							<use x="192" y="120" xlink:href="#p" />
+							<use x="192" y="136" xlink:href="#p" />
+							<use x="192" y="160" xlink:href="#p" />
+							<use x="192" y="168" xlink:href="#p" />
+							<use x="192" y="176" xlink:href="#p" />
+							<use x="192" y="184" xlink:href="#p" />
+							<use x="192" y="192" xlink:href="#p" />
+							<use x="192" y="208" xlink:href="#p" />
+							<use x="192" y="216" xlink:href="#p" />
+							<use x="200" y="32" xlink:href="#p" />
+							<use x="200" y="48" xlink:href="#p" />
+							<use x="200" y="56" xlink:href="#p" />
+							<use x="200" y="64" xlink:href="#p" />
+							<use x="200" y="80" xlink:href="#p" />
+							<use x="200" y="104" xlink:href="#p" />
+							<use x="200" y="112" xlink:href="#p" />
+							<use x="200" y="120" xlink:href="#p" />
+							<use x="200" y="144" xlink:href="#p" />
+							<use x="200" y="176" xlink:href="#p" />
+							<use x="200" y="192" xlink:href="#p" />
+							<use x="200" y="200" xlink:href="#p" />
+							<use x="200" y="224" xlink:href="#p" />
+							<use x="208" y="32" xlink:href="#p" />
+							<use x="208" y="48" xlink:href="#p" />
+							<use x="208" y="56" xlink:href="#p" />
+							<use x="208" y="64" xlink:href="#p" />
+							<use x="208" y="80" xlink:href="#p" />
+							<use x="208" y="104" xlink:href="#p" />
+							<use x="208" y="120" xlink:href="#p" />
+							<use x="208" y="144" xlink:href="#p" />
+							<use x="208" y="152" xlink:href="#p" />
+							<use x="208" y="160" xlink:href="#p" />
+							<use x="208" y="208" xlink:href="#p" />
+							<use x="208" y="216" xlink:href="#p" />
+							<use x="216" y="32" xlink:href="#p" />
+							<use x="216" y="80" xlink:href="#p" />
+							<use x="216" y="104" xlink:href="#p" />
+							<use x="216" y="120" xlink:href="#p" />
+							<use x="216" y="136" xlink:href="#p" />
+							<use x="216" y="144" xlink:href="#p" />
+							<use x="216" y="160" xlink:href="#p" />
+							<use x="216" y="168" xlink:href="#p" />
+							<use x="216" y="184" xlink:href="#p" />
+							<use x="216" y="192" xlink:href="#p" />
+							<use x="216" y="200" xlink:href="#p" />
+							<use x="216" y="208" xlink:href="#p" />
+							<use x="216" y="216" xlink:href="#p" />
+							<use x="224" y="32" xlink:href="#p" />
+							<use x="224" y="40" xlink:href="#p" />
+							<use x="224" y="48" xlink:href="#p" />
+							<use x="224" y="56" xlink:href="#p" />
+							<use x="224" y="64" xlink:href="#p" />
+							<use x="224" y="72" xlink:href="#p" />
+							<use x="224" y="80" xlink:href="#p" />
+							<use x="224" y="96" xlink:href="#p" />
+							<use x="224" y="112" xlink:href="#p" />
+							<use x="224" y="120" xlink:href="#p" />
+							<use x="224" y="128" xlink:href="#p" />
+							<use x="224" y="144" xlink:href="#p" />
+							<use x="224" y="152" xlink:href="#p" />
+							<use x="224" y="176" xlink:href="#p" />
+							<use x="224" y="200" xlink:href="#p" />
+							<use x="224" y="208" xlink:href="#p" />
+							<use x="224" y="216" xlink:href="#p" />
+							<use x="224" y="224" xlink:href="#p" />
+							</g>
+						</svg>
+<!--end qrcode svg	 -->						
+					</a>
+					<div class="d-flex align-items-center">	
+						<div>加入奈普互動LINE@好友<br>即時傳訊息給我們</div>
+					</div>
+				</div>
+				<div class="info-rwd">
+					<div class="py-1">地址 : <span>台北市內湖區堤頂大道二段501號3樓5之2</span></div>
+					<div class="py-1">電話 : <span>(02)8751-1337</span></div>
+					<div class="py-1">傳真 : <span>(02)2758-4049</span></div>
+				</div>
+				
+			</div>
+			<!-- <div class="footer-fb">
+					<a href="https://www.facebook.com/%E5%A5%88%E6%99%AE%E4%BA%92%E5%8B%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-312620152253775/" target="_blank">
+						<div class="fb-icon fa-1x">
+							<i class="fab fa-facebook-f"></i>
+						</div>
+					</a>
+			</div> -->
+			<div class="footer-mail">
+					<a href="mailto:peter@ne-plus.com" target="_blank">
+						<div class="mail-icon fa-1x">
+							<i class="fas fa-envelope"></i>
+						</div>
+					</a>
+			</div>
+		</div>
+	</div>
+	<div class="copyright text-center">
+		Copyright &copy; 2018 NEPLUS INTERACTIVE All Rights Reserved.
+	</div>
+	
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2297338-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2297338-4');
+</script>
+
+</body>  
+</html>
